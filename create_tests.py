@@ -69,6 +69,11 @@ def gen_bcrypt(password):
     return bcrypt.hashpw(password, salt)
 
 
+def verify_bcrypt(password, hashed):
+    '''Verify a salted bcrypt hash from the given password string'''
+    return bcrypt.checkpw(password, hashed)
+
+
 def extract_protected_text(filename):
     '''
     Extract the text from a test file which we want to safeguard with a signature.
