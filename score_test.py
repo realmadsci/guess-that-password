@@ -15,7 +15,7 @@ logging.basicConfig(level=logging.DEBUG)
 
 # Set up logger for "__main__" and select INFO level unless we are debugging:
 logger = logging.getLogger(__name__)
-logger.setLevel(logging.DEBUG)
+logger.setLevel(logging.WARNING)
 
 def verify_signature(f):
     try:
