@@ -16,7 +16,7 @@ private_key = serialization.load_pem_private_key(
     password=getpass.getpass('Enter signing password: ').encode())
 
 test_path = Path('original_tests')
-signed_path = Path('signed_tests')
+signed_path = Path('assigned_tests')
 signed_path.mkdir(exist_ok=True)
 
 for test in test_path.iterdir():
