@@ -1,4 +1,4 @@
-#!/bin/env python
+#!/usr/bin/env python3
 import binascii
 import logging
 from datetime import datetime
