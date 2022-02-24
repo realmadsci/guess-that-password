@@ -1,33 +1,36 @@
 :Assigned_to = realmadsci
-:Expiration_date = 2021.04.28
+:Expiration_date = 2022.05.06
 
 # Level 0: MD5 hash, one single word. All lowercase, nothing special.
-password:f5ab96926a6a561aab7ecb4ba7c915d4:2
+password:297aae72cc4d0d068f46a9158469e34d:2
 
 # Level 1: MD5 hash, one single word.
 # The first letter *might* be capitalized, and it *might* have a single decimal digit appended.
 # IMPORTANT NOTE: THIS IS THE ONLY LEVEL THAT HAS ANYTHING OTHER THAN ALL-LOWERCASE WORDS!
-password:a027488ee903a1da87bae244f454f19b:2
-password:788c1d34ae0fa036414980c6440606c8:2
-password:cfaf278e8f522c72644cee2a753d2845:2
-password:04f3b2f33b59ca75a12545f8f3b9018d:2
+password:a2f7093528d82446d65079da94a5dd21:2
+password:3ce5fd1ad8f63cfc7eddf0234260db48:2
+password:72690a0dc62317c4c3468779b665a056:2
+password:89ad28bb9fa94d6ee29e0fc03e5e7297:2
 
 # Level 2: MD5 hashes. These are 2-word passwords with a hyphen in between.
-password:39d770665f880052569b627f6f7b8dbc:3
-password:27ed453b1410e0d58c53c92ff5148ef0:3
-password:441b4b1403c0e88373250f9fffc909ba:3
-password:536501ccd455d5e59b666a40b865a497:3
-password:41b12c3ea29f81e7707e6c36673dec73:3
+password:7326dee35b6f8b0279f4b1404a1fa0a0:3
+password:b245550acde104ed5b6bef7813afb3e8:3
+password:e17b3bec7ccb35044d57ea462eef2584:3
+password:c8e1e3c94f07dc0bab0698f34f3726c5:3
+password:aa53dd9ab27d0d595a26a81c86154f37:3
 
 # Level 3: Salted bcrypt hash. This is a 2-word password with a hyphen in between.
-password:$2b$12$hdAEE3myOQD5uZtlvc2UtuB/qrPZ6h0bo86wNCbo6TGO8RS2hu8bm:10
+password:$2b$12$ktBGoQmcqqxwz/Eu2sCN/eZa7a2meuprDo8gD0MpPNRdKkHFRwob.:10
 
 # Level 4: MD5 hashes. These are 3-word passwords with hyphens in between.
-password:13237ce0958aec32746fcb7b3ff4c0fd:1
-password:eaed0eb44bb2a1dc618cceadb733ae4f:1
-password:d9e4c36a2599d38d6a99736b669cff42:1
-password:13be066bc2650702464840a35f77525c:1
+password:d0a476710ed9a04760744c13ba5db843:1
+password:5ef98990383dc71db047b5be130416d0:1
+password:0b16b63fa100edf59e19f86e463406ae:1
+password:18c2cf5016268478ee65a298b991b86b:1
 
 # Level 5: MD5 hashes. This is a 4-word password with hyphens in between.
-password:8beea9385d7bac2ad209a70fca1fff08:1
-# Signature = JMmu9kF3vzn80hpXmw5VP6FaOi+pK+V/wqdTKFKkyqHiuNSH0pOJaA9pNu7b1Om9vMApuZqnKrLw6MOHyGpNDA==
+password:c950834c7e43370b71b1cf3f3cdf012d:1
+
+# Level 6: "Impossible extra credit level". MD5 hashes. This is a 5-word password with hyphens in between.
+password:55cc530cb2b81476764411ee64a34240:5
+# Signature = drbhMARl2it11Qo+DFOcZ1fFSlU8gMZUos/EeWAg8y2nth3kj5EvsTwMiT1qTYuPfUms4DkVNMprFYGbEA5KDw==

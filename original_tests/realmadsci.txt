@@ -1,32 +1,35 @@
 :Assigned_to = realmadsci
-:Expiration_date = 2021.04.28
+:Expiration_date = 2022.05.06
 
 # Level 0: MD5 hash, one single word. All lowercase, nothing special.
-thank:f5ab96926a6a561aab7ecb4ba7c915d4:2
+crazy:297aae72cc4d0d068f46a9158469e34d:2
 
 # Level 1: MD5 hash, one single word.
 # The first letter *might* be capitalized, and it *might* have a single decimal digit appended.
 # IMPORTANT NOTE: THIS IS THE ONLY LEVEL THAT HAS ANYTHING OTHER THAN ALL-LOWERCASE WORDS!
-fence7:a027488ee903a1da87bae244f454f19b:2
-Good4:788c1d34ae0fa036414980c6440606c8:2
-quack:cfaf278e8f522c72644cee2a753d2845:2
-uncut7:04f3b2f33b59ca75a12545f8f3b9018d:2
+foggy9:a2f7093528d82446d65079da94a5dd21:2
+Shook:3ce5fd1ad8f63cfc7eddf0234260db48:2
+midge2:72690a0dc62317c4c3468779b665a056:2
+Slept3:89ad28bb9fa94d6ee29e0fc03e5e7297:2
 
 # Level 2: MD5 hashes. These are 2-word passwords with a hyphen in between.
-avert-fifty:39d770665f880052569b627f6f7b8dbc:3
-spoke-angle:27ed453b1410e0d58c53c92ff5148ef0:3
-perch-rage:441b4b1403c0e88373250f9fffc909ba:3
-spoil-react:536501ccd455d5e59b666a40b865a497:3
-limb-spool:41b12c3ea29f81e7707e6c36673dec73:3
+swami-abhor:7326dee35b6f8b0279f4b1404a1fa0a0:3
+slyly-pluck:b245550acde104ed5b6bef7813afb3e8:3
+bigot-would:e17b3bec7ccb35044d57ea462eef2584:3
+octet-sting:c8e1e3c94f07dc0bab0698f34f3726c5:3
+idiot-crude:aa53dd9ab27d0d595a26a81c86154f37:3
 
 # Level 3: Salted bcrypt hash. This is a 2-word password with a hyphen in between.
-habit-crazy:$2b$12$hdAEE3myOQD5uZtlvc2UtuB/qrPZ6h0bo86wNCbo6TGO8RS2hu8bm:10
+pixel-birth:$2b$12$ktBGoQmcqqxwz/Eu2sCN/eZa7a2meuprDo8gD0MpPNRdKkHFRwob.:10
 
 # Level 4: MD5 hashes. These are 3-word passwords with hyphens in between.
-chill-whiff-grub:13237ce0958aec32746fcb7b3ff4c0fd:1
-perch-movie-watch:eaed0eb44bb2a1dc618cceadb733ae4f:1
-icing-alien-water:d9e4c36a2599d38d6a99736b669cff42:1
-hefty-juror-perch:13be066bc2650702464840a35f77525c:1
+linen-lunar-eject:d0a476710ed9a04760744c13ba5db843:1
+merge-width-alloy:5ef98990383dc71db047b5be130416d0:1
+muddy-stage-cinch:0b16b63fa100edf59e19f86e463406ae:1
+vocal-kiosk-bevel:18c2cf5016268478ee65a298b991b86b:1
 
 # Level 5: MD5 hashes. This is a 4-word password with hyphens in between.
-cub-lasso-dash-tasty:8beea9385d7bac2ad209a70fca1fff08:1
+wrote-never-vigor-steel:c950834c7e43370b71b1cf3f3cdf012d:1
+
+# Level 6: "Impossible extra credit level". MD5 hashes. This is a 5-word password with hyphens in between.
+count-broke-excel-basis-given:55cc530cb2b81476764411ee64a34240:5
