@@ -6,23 +6,11 @@ from pathlib import Path
 
 import bcrypt
 
-
-def load_wordlist(filename):
+def load_wordle_list(filename):
     '''
-    Pull in the diceware word list from:
-    https://www.eff.org/files/2016/09/08/eff_short_wordlist_1.txt
-
-    as described by the EFF:
-    https://www.eff.org/deeplinks/2016/07/new-wordlists-random-passphrases
+    Word list extracted from https://www.nytimes.com/games/wordle/index.html
     '''
-    wordlist = []
-    with Path(filename).open() as wordfile:
-        for line in wordfile:
-            word = line.split('\t')[1].strip()
-            wordlist.append(word)
-
-    return wordlist
-
+    return Path(filename).read_text().splitlines()
 
 def choose_n_words(wordlist, num):
     '''
@@ -98,13 +86,13 @@ def extract_protected_text(filename):
 if __name__ == '__main__':
     import sys
 
-    words = load_wordlist('eff_short_wordlist_1.txt')
+    words = load_wordle_list('wordle_list.txt')
     #print(f'Got {len(words)} words from the list!')
 
     test_path = Path('original_tests')
     test_path.mkdir(exist_ok=True)
 
-    expiration = '2021.04.28'
+    expiration = '2022.05.06'
     for user in sys.argv[1:]:
         with (test_path / f'{user}.txt').open('w') as f:
             f.write(f':Assigned_to = {user}\n')
@@ -144,3 +132,8 @@ if __name__ == '__main__':
             password = make_hyphen_password(words, 4)
             hash = gen_md5(password)
             f.write(f'{password.decode()}:{hash.hex()}:1\n')
+
+            f.write('\n# Level 6: "Impossible extra credit level". MD5 hashes. This is a 5-word password with hyphens in between.\n')
+            password = make_hyphen_password(words, 5)
+            hash = gen_md5(password)
+            f.write(f'{password.decode()}:{hash.hex()}:5\n')
